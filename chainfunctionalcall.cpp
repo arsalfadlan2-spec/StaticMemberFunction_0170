@@ -10,4 +10,20 @@ public:
 
 int main() {
     return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+class buku {
+    string judul;
+
+public:
+    string getJudul() {
+        return this->judul;
+    }
 };
+
+int main() {
+    return 0;
+}
